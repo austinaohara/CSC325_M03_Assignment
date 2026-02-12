@@ -24,12 +24,8 @@ public class Executive extends StaffEmployee
         bonus = execBonus;
     }
 
-    //-----------------------------------------------------------------
-    // TODO2:  Computes and returns the pay for an executive, which is the
-    //  regular employee payment plus a one-time bonus.
-    //-----------------------------------------------------------------
     public double pay()
     {
-
+        return payRate + bonus;
     }
 }
