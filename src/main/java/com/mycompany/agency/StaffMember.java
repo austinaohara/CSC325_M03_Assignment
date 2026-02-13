@@ -22,11 +22,12 @@ public abstract class StaffMember
     //-----------------------------------------------------------------
     // Returns a string including the basic employee information.
     //-----------------------------------------------------------------
+    @Override
     public String toString()
     {
         return "Name: " + name +
                 "\nAddress: " + address +
-                "\nPhone #: " + phone + "\n";
+                "\nPhone #: " + phone;
     }
 
     //-----------------------------------------------------------------
