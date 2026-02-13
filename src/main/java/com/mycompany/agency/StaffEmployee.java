@@ -27,7 +27,7 @@ public class StaffEmployee extends StaffMember
     //-----------------------------------------------------------------
     public String toString()
     {
-    
+    return "StaffEmployee: \n[" + super.toString() +  "SSN: " + socialSecurityNumber + "\nPay Rate: " + payRate + "]\n";
     }
 
     //-----------------------------------------------------------------
