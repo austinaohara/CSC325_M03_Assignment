@@ -1,8 +1,6 @@
 package com.mycompany.agency;
 
-
-    // TODO 1: Make Executive a child of StaffEmploee
-public class Executive 
+public class Executive extends StaffEmployee
 {
     private double bonus;
 
@@ -26,12 +24,8 @@ public class Executive
         bonus = execBonus;
     }
 
-    //-----------------------------------------------------------------
-    // TODO2:  Computes and returns the pay for an executive, which is the
-    //  regular employee payment plus a one-time bonus.
-    //-----------------------------------------------------------------
     public double pay()
     {
-       
+        return payRate + bonus;
     }
 }
