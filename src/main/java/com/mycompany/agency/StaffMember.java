@@ -2,7 +2,6 @@ package com.mycompany.agency;
 
 
 
-// TODO 1: Make this class work and public
 public abstract class StaffMember
 {
     protected String name;
@@ -21,11 +20,13 @@ public abstract class StaffMember
     }
 
     //-----------------------------------------------------------------
-    // TODO 2: Returns a string including the basic employee information.
+    // Returns a string including the basic employee information.
     //-----------------------------------------------------------------
     public String toString()
     {
-
+        return "Name: " + name +
+                "Address: " + address +
+                "Phone #: " + phone;
     }
 
     //-----------------------------------------------------------------
