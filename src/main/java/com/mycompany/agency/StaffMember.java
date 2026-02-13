@@ -25,8 +25,8 @@ public abstract class StaffMember
     public String toString()
     {
         return "Name: " + name +
-                "Address: " + address +
-                "Phone #: " + phone;
+                "\nAddress: " + address +
+                "\nPhone #: " + phone + "\n";
     }
 
     //-----------------------------------------------------------------
