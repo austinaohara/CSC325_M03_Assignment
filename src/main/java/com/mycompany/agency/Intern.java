@@ -2,9 +2,9 @@ package com.mycompany.agency;
 
 public class Intern extends StaffEmployee
 {
-    public Intern(String eName, String eAddress, String ePhone)
+    public Intern(String eName, String eAddress, String ePhone, String socSecNumber)
     {
-        super(eName, eAddress, ePhone, "000-00-0000", 0);
+        super(eName, eAddress, ePhone, socSecNumber, 0);
     }
 
     public double pay()
